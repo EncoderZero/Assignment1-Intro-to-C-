@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BiggestInt.cpp">
+    <ClCompile Include="Fraction Calc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

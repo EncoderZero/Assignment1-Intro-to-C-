@@ -64,7 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BiggestInt.cpp" />
+    <ClCompile Include="Fraction Calc.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="grades.txt" />
