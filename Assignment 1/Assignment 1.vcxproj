@@ -64,7 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Fraction Calc.cpp" />
+    <ClCompile Include="GradeSchema.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="grades.txt" />

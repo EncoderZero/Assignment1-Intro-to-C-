@@ -19,6 +19,8 @@ int const EXP_POS = 1;
 int const TERMINATE_VAL = -1;
 int const BASE = 10;
 
+//SortVector
+//Parameter vector<vector<int>> &toSort pass the vector to sort in order of largest number creation
 void sortVector(vector<vector<int>> &toSort)
 {
 	int length = (int)(toSort[VAL_POS].size());
