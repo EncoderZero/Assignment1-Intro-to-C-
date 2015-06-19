@@ -44,6 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\School\Georgian 2015\Summer\Introduction to C++\Assignment 1\Assignment 1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -56,6 +57,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\School\Georgian 2015\Summer\Introduction to C++\Assignment 1\Assignment 1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -64,10 +66,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GradeSchema.cpp" />
+    <ClCompile Include="MainEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="grades.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BiggestInt.h" />
+    <ClInclude Include="FractionCalc.h" />
+    <ClInclude Include="GradeSchema.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
