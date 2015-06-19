@@ -102,6 +102,8 @@ int runBiggestInt()
 		else// otherwise display error
 		{
 			cout << input << " was invalid. The number must be between " << MIN_VAL << " and " << MAX_VAL << " inclusive." << endl;
+			cin.clear();
+			cin.ignore();
 		}
 	}
 	sortVector(numSet);//sort the number list to the order
