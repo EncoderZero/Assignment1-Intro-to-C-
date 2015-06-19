@@ -36,6 +36,7 @@ int main()
 		runBiggestInt();
 		break;
 	default:
+		cout << "Somehow you broke the code and selected no program to run. \n";
 		break;
 	}
 	cin.ignore();
