@@ -46,7 +46,17 @@ string reduceFrac(int num1, int den1)
 	}
 	else{
 		int comDiv = greatesetCommonFactor(num1, den1);
-		full = to_string(num1 / comDiv) + "/" + to_string(den1 / comDiv);
+		if (num1>0 && den1>0){
+			full = to_string(num1 / comDiv) + "/" + to_string(den1 / comDiv);
+		}
+		else if (num1<0&&den1<0)
+		{
+			full = to_string(abs(num1 / comDiv)) + "/" + to_string(abs(den1 / comDiv));
+		}
+		else 
+		{
+			full = "-"+to_string(abs(num1 / comDiv)) + "/" + to_string(abs(den1 / comDiv));
+		}
 	}
 
 	return full;
